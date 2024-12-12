@@ -1,0 +1,25 @@
+{
+  "name": "insurance-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based insurance platform",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node src/tests/database.test.js",
+    "query": "node src/utils/dbQueries.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.0",
+    "cors": "^2.8.5",
+    "uuid": "^8.3.2",
+    "@truffle/contract": "^4.3.19",
+    "ethereumjs-tx": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+} 
