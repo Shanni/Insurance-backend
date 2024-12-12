@@ -2,30 +2,6 @@ Insurance Blockchain Platform
 
 A blockchain-based insurance platform that handles policy management and claims processing using Ethereum smart contracts and MongoDB for off-chain data storage.
 
-Project Structure:
-insurance-blockchain/
-├── docker/
-│   └── docker-compose.yml # MongoDB container configuration
-├── src/
-│   ├── config/
-│   │   └── database.js
-│   ├── controllers/
-│   │   ├── insuranceController.js
-│   │   └── claimController.js
-│   ├── models/
-│   │   └── Insurance.js
-│   ├── routes/
-│   │   └── insuranceRoutes.js
-│   ├── utils/
-│   │   ├── blockchain.js
-│   │   └── dbQueries.js
-│   ├── tests/
-│   │   └── database.test.js
-│   └── app.js
-├── .env
-├── .gitignore
-└── package.json
-
 Prerequisites:
 - Node.js (v14+)
 - Docker and Docker Compose
